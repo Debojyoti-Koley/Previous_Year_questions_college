@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="landing_Page.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+    <title>Welcome.landing_page</title>
+</head>
+<body>
+    
+    <!-- SJCE IMAGE -->
+
+    <header class="header">
+        <div class="text-box">
+            <!-- <h1 class="h1-main" style="font-size: 20vh;">STUDENT HELP</h1> -->
+            <!-- <h1 style="font-size:8vw;">STUDENT HELP</h1> -->
+            <h1>STUDENT HELP</h1>
+            <p class="p_header">Get all the previous year papers and study materials in one place.<br>All the papers and PDFs will be uploaded soon.</p>
+            <!-- <span class="header-text">Get all the previous year papers and study materials in one place</span> -->
+        </div>
+    </header>
+
+    <!-- MAIN DIV -->
+
+    <section class="section-a">
+        <h2 class="main-header">Select Year</h2>
+        <p class="main-header_text">Choose which year you are in!</p>
+    </section>
+    <section class="grid">
+        <button class="btn-year a">1st Year</button>
+        <button class="btn-year b">2nd Year</button>
+        <button class="btn-year c">3rd Year</button>
+        <button class="btn-year d">4th Year</button>
+    </section>
+
+    <!-- UPLOAD -->
+
+    <section class="section-b">
+        <h2 class="upload">Upload</h2>
+        <p class="p_upload">If you have any question papers or PDFs, then please upload to help each other</p>
+        <div class="total_select">
+
+        <div class="choose_branch">
+            <p class="select_stream">Stream : </p>
+            <select name="branches" id="branch">
+                <option value="CS">Computer Science</option>
+                <option value="CSBS">Computer Science and Business Systems</option>
+                <option value="ISE">Information Science</option>
+                <option value="ECE">Electronics and Communication</option>
+                <option value="EEE">Electrical</option>
+                <option value="MECH">Mechanical</option>
+                <option value="EI">EI</option>
+                <option value="CIVIL">Civil</option>
+                <option value="ENVMT">Environmental</option>
+            </select>
+            <p class="choose_year">Select your year : </p>
+            <div class="year_btn">
+                <input type="radio" id="year" name="year" value="a">
+                <label for="a">1st</label>
+                <input type="radio" id="year" name="year" value="b">
+                <label for="b">2nd</label>
+                <input type="radio" id="year" name="year" value="c">
+                <label for="a">3rd</label>
+                <input type="radio" id="year" name="year" value="d">
+                <label for="a">4th</label>
+        </div>
+        </div>
+        <div class="other_two">
+            <p class="choose_exam">Select Sem or Internal : </p>
+            <div class="exam_btn">
+                <input type="radio" id="exam" name="exam" value="semA">
+                <label for="semA">Sem 1 </label>
+                <input type="radio" id="exam" name="exam" value="semB">
+                <label for="semB">Sem 2</label>
+                <input type="radio" id="exam" name="exam" value="internal">
+                <label for="internal">Internal</label>
+                <input type="radio" id="exam" name="exam" value="Study Materials">
+                <label for="studyMaterials">Study Materials</label>
+            </div>
+        </div>
+        <div class="input_file">
+            <input type="file">
+        </div>
+    
+
+            <!-- <input type="submit" name="" id=""> -->
+            <button class="upload_submit_btn">Submit</button>
+        </div>
+    </section>
+
+    <!-- FEEDBACK -->
+
+    <section class="section-c">
+        <h2 class="feedback-h2">Feedback</h2>
+        <p class="p_feedback">Please give us the valuable feedback to help us improve.</p>
+        <!-- <textarea name="feedback-text" id="" cols="160" rows="12"></textarea> -->
+
+        <div class="container">
+            <div class="comment">
+                <textarea class="textinput" placeholder="COMMENT DOWN!"></textarea>
+            </div>
+            <button class="feedback-btn">Submit</button>
+        </div>
+        <!-- <button class="feedback-btn">Submit</button> -->
+
+    </section>
+
+    <!-- ABOUT US -->
+
+    <section class="section-d">
+        <h2 class="aboutUs-h2">About Us</h2>
+        <p class="p_aboutUs">Developed by a college student who wants to help others. If you have any query please mail at testcases2001@gmail.com .All right received ©.</p>
+    </section>    
+
+</body>
+</html>
